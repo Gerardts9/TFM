@@ -2,7 +2,7 @@
 
 ### Easy QC:
 
-EasyQC was applied to each original dataset obtained from the different participating cohorts, separating between X and autosomal chromosomes. contains the autosomal Antithrombin script used to appy the quality control to the ten cohorts  
+EasyQC was applied to each original dataset obtained from the different participating cohorts, separating between X and autosomal chromosomes. AT EasyQC script contains the autosomal Antithrombin script used to apply the quality control to the chromosome X cohorts.  
 
 ### METAL Scripts
 
