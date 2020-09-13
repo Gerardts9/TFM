@@ -7,8 +7,7 @@ EasyQC was applied to each original dataset obtained from the different particip
 
 ### METAL Scripts
 
-Different METAL scripts were used to meta-analyse each phenotype 
-
+Two different meta-analyses methods were used through the software METAL, the inverse-variance weighted and the sample-size weighted.
 
 ### Manhattan.R
 
