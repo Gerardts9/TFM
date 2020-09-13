@@ -32,7 +32,7 @@ Multi-Phenotype MPAT.R and Multi-Phenotype metaUSAT.R, are the scripts used to p
 
 ### Supplementary Table 1:
 
-Autosomal Antithrombin quality control step output.
+Chromosome X Antithrombin quality control step output in .rep format.
 
 
 ### Supplementary Tables 2-5:
