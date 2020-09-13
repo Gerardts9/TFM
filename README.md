@@ -30,6 +30,11 @@ LocusZoom.R contains the script used to create the significant variants' regiona
 Multi-Phenotype MPAT.R and Multi-Phenotype metaUSAT.R, are the scripts used to perform the multi-phenotype analysis of the four phenotypes (AT, PC, PST and PSF) with MPAT and metaUSAT methods, respectively. metaUSAT script includes the bash code used to apply pruning to the data before the correlation matrix obtantion.
 
 
+### HaploR:
+
+HaploR.R contains the code used to retrieve the information from the haploreg tool.
+
+
 ### Supplementary Table 1:
 
 Chromosome X Antithrombin quality control step output in .rep format.
