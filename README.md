@@ -22,12 +22,12 @@ Contains the toptab() custom function used in scripts used to create Mahnattan p
 
 ### Regional plots:
 
-LocusZoom.R contains the script used to create the significant variants' regional plots obtained in the meta-analyses. 
+LocusZoom.R contains the script used to create the significant variants' regional plots obtained in the meta-analyses.
 
 
 ### Multi-phenotype:
 
-Multi-Phenotype MPAT.R and Multi-Phenotype metaUSAT.R, are the scripts used to perform the multi-phenotype analysis of the four phenotypes (AT, PC, PST and PSF) with MPAT and metaUSAT methods, respectively.
+Multi-Phenotype MPAT.R and Multi-Phenotype metaUSAT.R, are the scripts used to perform the multi-phenotype analysis of the four phenotypes (AT, PC, PST and PSF) with MPAT and metaUSAT methods, respectively. metaUSAT script includes the bash code used to apply pruning to the data before the correlation matrix obtantion.
 
 
 ### Supplementary Table 1:
