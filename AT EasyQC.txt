@@ -48,11 +48,6 @@ EASYIN	--fileIn /home/gerard/CHARGE/easyQC/AT/retroveCASES_EA_ATact_FREEZE5b_CHR
 #		--acolInClasses character;character;character;numeric;numeric;numeric;numeric;numeric;numeric
 #		--acolNewName cptid;EFFECT_ALLELE;OTHER_ALLELE;EAF;BETA;SE;PVAL;N;IMPUTATION
 
-#EASYIN	--fileIn /home/gerard/CHARGE/easyQC/ATX/retroveCASES_EA_ATact_FREEZE5b_CHRXF_05feb2020.csv.zip
-#EASYIN	--fileIn /home/gerard/CHARGE/easyQC/ATX/GAIT2_EA_ATact_FREEZE5b_CHRXM_04Jun2019.csv.zip
-#EASYIN	--fileIn /home/gerard/CHARGE/easyQC/ATX/retroveCASES_EA_ATact_FREEZE5b_CHRXM_05feb2020.csv.zip
-#EASYIN	--fileIn /home/gerard/CHARGE/easyQC/ATX/retroveCONTROLS_EA_ATact_FREEZE5b_CHRXM_05feb2020.csv.zip
-
 
 DEFINE		--pathOut /home/gerard/CHARGE/easyQC/AT/CLEANED
 		--strMissing NA
@@ -76,10 +71,6 @@ DEFINE		--pathOut /home/gerard/CHARGE/easyQC/AT/CLEANED
 EASYIN	--fileIn /home/gerard/CHARGE/easyQC/AT/MARTHA_EA_Male_Freeze5B_Antithrombin.chrX.gz
 EASYIN	--fileIn /home/gerard/CHARGE/easyQC/AT/MARTHA_EA_Freeze5B_Antithrombin_Female_chrX.gz
 
-
-
-
-## ...
 
 #################################################################################################################
 ## EASYQC Scripting interface:
