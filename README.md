@@ -25,6 +25,11 @@ Contains the toptab() custom function used in scripts used to create Mahnattan p
 LocusZoom.R contains the script used to create the significant variants' regional plots obtained in the meta-analyses. 
 
 
+### Multi-phenotype:
+
+Multi-Phenotype MPAT.R and Multi-Phenotype metaUSAT.R, are the scripts used to perform the multi-phenotype analysis of the four phenotypes (AT, PC, PST and PSF) with MPAT and metaUSAT methods, respectively.
+
+
 ### Supplementary Table 1:
 
 Autosomal Antithrombin quality control step output.
