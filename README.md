@@ -7,7 +7,8 @@ EasyQC was applied to each original dataset obtained from the different particip
 
 ### METAL Scripts
 
-Two different meta-analyses methods were used through the software METAL, the inverse-variance weighted and the sample-size weighted.
+Two different meta-analyses methods were used in the meta-analysis step in the METAL software, the inverse-variance weighted in Antithrombin and Protein S datasets, and the sample-size weighted applied in Protein C datasets. AT_X_Metalscript.txt and PC_X_Metalscript.txt are the scripts used in the chromosome X meta-analyses of Antithrombin and Protein C cohorts, respectively. All the scripts used were created based on the METAL documentation web page inforamtion (https://genome.sph.umich.edu/wiki/METAL_Documentation).
+
 
 ### Manhattan.R
 
