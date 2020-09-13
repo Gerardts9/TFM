@@ -19,6 +19,12 @@ Manhattan.R scripts were used to create the Manhattan Plots for each of the phen
 
 Contains the toptab() custom function used in scripts used to create Mahnattan plots and significant variants tables.
 
+
+### Regional plots:
+
+LocusZoom.R contains the script used to create the significant variants' regional plots obtained in the meta-analyses. 
+
+
 ### Supplementary Table 1:
 
 Autosomal Antithrombin quality control step output.
