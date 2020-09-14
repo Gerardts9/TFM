@@ -11,20 +11,20 @@ toptab <- function(fileaut, fileX){
   resultsTotal <- rbind(resultsNoX,resultsX)
   resultsTotal$MarkerName <- gsub("X",23,resultsTotal$MarkerName)   
   
-  FilteredLZ <- resultsTotal[resultsTotal$`P-value` < 0.01,]
+  FilteredLZ <- resultsTotal[resultsTotal$`P-value` < 0.01,] # Reduce the number of variants to facilitate the creation of the plot.
   FilteredLZ <- na.omit(FilteredLZ)
   
   FilteredLZ <- mutate(FilteredLZ, chr = as.numeric(substr(MarkerName, 4,regexpr(":",MarkerName)-1)), # Create two new columns, chr and BP from existing columns.
                        BP = as.numeric(substr (substr(MarkerName, regexpr(":",MarkerName)+1 ,nchar(MarkerName)),1,regexpr(":",substr(MarkerName, regexpr(":",MarkerName)+1 ,nchar(MarkerName)))-1)))
   
-  Filtered <- FilteredLZ[FilteredLZ$`P-value` < 5e-08,]
+  Filtered <- FilteredLZ[FilteredLZ$`P-value` < 5e-08,] # Select significant variants.
   
   manhattan(FilteredLZ, chr ="chr", bp ="BP", p ="P-value", snp ="MarkerName",suggestiveline = -log10(1e-05), genomewideline = -log10(5e-08),
             main="Manhattan_GWAS")
   
   FilteredOrder <- Filtered[order(Filtered$chr,Filtered$BP),]
   
-  # Loop to obtain the TOPSNPs from the results of a meta-analysis
+  # Loop to obtain the top SNPs from the results of a meta-analysis for each chromosome:
   toptable <- c()
   for (i in 1:23){
     RESULTSCHR <- FilteredOrder[FilteredOrder$chr == i, ]
