@@ -17,7 +17,7 @@ Manhattan.R scripts were used to create the Manhattan Plots for each of the phen
 
 ### Toptab R function
 
-Contains the toptab() custom function used in scripts used to create Mahnattan plots and significant variants tables.
+Contains the toptab() custom function used in the scripts to create Mahnattan plots and significant variants tables.
 
 
 ### Regional plots:
